@@ -24,7 +24,7 @@ section {
 nav {
     display: block;
     clear: both;
-    text-align: left;
+    text-align: center;
     width: 100%;
     margin: 0;
     height: 50px;
@@ -43,7 +43,7 @@ nav a {
 
 nav a.active {
     font-weight: bold;
-    color: rgb(223, 177, 57);
+    color: #008080;
 }
 
 section {
