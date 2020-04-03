@@ -56,32 +56,6 @@ section {
     overflow: auto;
 }
 
-div#clock {
-    margin: 0;
-    padding: 17px 0px;
-    height: 100%;
-    width: 100%;
-    float: left;
-    display: table;
-}
-
-div#clock > p {
-    display: table-cell;
-    vertical-align: middle;
-    height: 100%;
-    font-size: 3em;
-}
-
-div#clock #left {
-    width: 65%;
-    text-align: right;
-}
-
-div#clock #right {
-    width: 35%;
-    text-align: left;
-    border-left: 1px solid black;
-}
 
 footer {
     display: block;
