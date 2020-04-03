@@ -1,0 +1,164 @@
+@import "https://fonts.googleapis.com/css?family=Lato";
+
+* {
+    font-family: "Lato", sans-serif;
+}
+
+html,
+body {
+    padding: 0px;
+    margin: 0px;
+    font-size: 10pt;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    min-width: 960px;
+    min-height: 600px;
+}
+
+nav,
+section {
+    box-sizing: border-box;
+}
+
+nav {
+    display: block;
+    clear: both;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    height: 50px;
+}
+
+nav a {
+    font-size: 1.7em;
+    text-transform: uppercase;
+    display: inline-block;
+    width: 19.4%;
+    line-height: 50px;
+    color: black;
+    text-decoration: none;
+    margin: 0;
+}
+
+nav a.active {
+    font-weight: bold;
+    color: rgb(223, 177, 57);
+}
+
+section {
+    position: relative;
+    font-size: 1.5em;
+    width: 100%;
+    margin: 0;
+    height: calc(100% - 100px);
+    min-height: 500px;
+    overflow: auto;
+}
+
+div#clock {
+    margin: 0;
+    padding: 17px 0px;
+    height: 100%;
+    width: 100%;
+    float: left;
+    display: table;
+}
+
+div#clock > p {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    font-size: 3em;
+}
+
+div#clock #left {
+    width: 65%;
+    text-align: right;
+}
+
+div#clock #right {
+    width: 35%;
+    text-align: left;
+    border-left: 1px solid black;
+}
+
+footer {
+    display: block;
+    height: 50px;
+    position: relative;
+    box-sizing: border-box;
+    letter-spacing: 2px;
+}
+
+footer a {
+    position: absolute;
+    color: inherit;
+    left: calc(65% + 0.5em);
+    text-decoration: none;
+    text-transform: uppercase;
+    bottom: 15px;
+    color: rgb(223, 177, 57);
+}
+
+footer a:hover {
+    color: black;
+    font-weight: bold;
+}
+
+p.contact {
+    margin: 0;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+p.writing {
+    margin: 20;
+    position: inherit;
+    top: 10%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -0%);
+}
+
+p.writing:last-child {
+    margin-bottom: 3em;
+}
+
+p.writing a:link {
+    color: rgb(128, 128, 128);
+    text-decoration: none;
+}
+
+p.writing a:visited {
+    color: rgb(128, 128, 128);
+    text-decoration: none;
+}
+
+p.writing a:hover {
+    color: rgb(223, 177, 57);
+    text-decoration: none;
+}
+
+@media screen and (max-width: 960px) {
+    html,
+    body {
+        min-height: 400px;
+    }
+}
+
+@media screen and (min-width: 961px) and (max-width: 1280px) {
+    html,
+    body {
+        min-height: 450px;
+    }
+}
+
+@media screen and (min-width: 1281px) and (max-width: 1366px) {
+    html,
+    body {
+        min-height: 500px;
+    }
+}
