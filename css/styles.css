@@ -24,7 +24,7 @@ section {
 nav {
     display: block;
     clear: both;
-    text-align: center;
+    text-align: left;
     width: 100%;
     margin: 0;
     height: 50px;
@@ -67,7 +67,7 @@ footer {
 
 footer a {
     position: absolute;
-    color: inherit;
+    color: #008080;
     left: calc(65% + 0.5em);
     text-decoration: none;
     text-transform: uppercase;
