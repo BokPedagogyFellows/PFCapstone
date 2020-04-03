@@ -1,0 +1,48 @@
+section#projects p {
+  font: 18px/1.3 lato;
+}
+
+.imgWrap {
+  position: relative;
+  padding: 40px;
+}
+
+.imgWrap img {
+  height: 205px;
+  width: 400px;
+}
+
+.imgDescription {
+  position: absolute;
+  top: 5px;
+  bottom: 0;
+  left: 20px;
+  right: 20px;
+  text-align: justify;
+
+  background: rgba(255, 255, 255, 1);
+  color: #000;
+  height: 0;
+  overflow: hidden;
+  transition: height 0.5s ease-in;
+  /*remove comment if you want a gradual transition between states
+  -webkit-transition: visibility opacity 0.2s;
+  */
+}
+
+.imgDescription span {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 35px;
+  }
+
+.imgDescription a {
+  color: rgb(223, 177, 57);
+  text-decoration: none;
+  }
+
+.imgWrap:hover .imgDescription {
+  font: 20px/1.2 lato;
+  display: block;
+  height: 100%;
+}
