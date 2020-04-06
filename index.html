@@ -19,7 +19,9 @@
 
         <link rel="stylesheet" href="css/styles.css?v=1.0" />
         <link rel="stylesheet" href="css/about.css?v=1.0">
-
+        <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+        
     </head>
 
     <body>
@@ -31,7 +33,9 @@
         </nav>
           <section class='main' id='about'>
     <div class='picture-caption'>
-      <img src='./img/S.JamesFTC2019.jpg' alt="Sarah James">
+      <div><img src='./img/S.JamesFTC2019.jpg' alt="Sarah James"></div>
+      <div><img src='./img/JordenFTC2019.jpg' alt="Jorden Sharick"></div>
+      <div><img src='./img/ErikaBailey2019.jpg' alt="Erika Bailey"></div>
       <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
           labore et dolore magna aliqua. Dolor sit amet consectetur adipiscing. Ultricies lacus sed turpis 
           tincidunt. Porta lorem mollis aliquam ut porttitor leo a. Amet justo donec enim diam vulputate. 
@@ -43,6 +47,16 @@
         <footer>
             <a href="https://bokcenter.harvard.edu/contact-us" target="_blank">Derek Bok Center for Teaching and Learning</a>
         </footer>
-     
+     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+
+$('.fade').slick({
+  dots: true,
+  infinite: true,
+  speed: 500,
+  fade: true,
+  cssEase: 'linear'
+});
     </body>
 </html>
