@@ -28,28 +28,29 @@
         
  <section class='main' id='about'>
     <div class='picture-caption'>
-      <div class='item'><img src='./img/S.JamesFTC2019.jpg' alt="Sarah James"></div>
-      <div class='item'><img src='./img/JordenFTC2019.jpg' alt="Jorden Sharick"></div>
-      <div class='item'><img src='./img/ErikaBailey2019.jpg' alt="Erika Bailey"></div>
+      <div><img src='./img/S.JamesFTC2019.jpg' alt="Sarah James"></div>
+      <div><img src='./img/JordenFTC2019.jpg' alt="Jorden Sharick"></div>
+      <div><img src='./img/ErikaBailey2019.jpg' alt="Erika Bailey"></div>
     </div>
   </section>
         <footer>
             <a href="https://bokcenter.harvard.edu/contact-us" target="_blank">Derek Bok Center for Teaching and Learning</a>
         </footer>
-        <!--Slick Slider JS -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
         
-        <!--Jquery CDN Link -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <!--Slick Slider JS -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+        
+  <!--Jquery CDN Link -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
-<script $('.picture-caption').slick({
-  dots: true,
-  infinite: true,
-  speed: 500,
-  fade: true,
-  cssEase: 'linear',
-        autoplay: true,
-   
+
+   <script type ="text/javascript">
+         $(document).ready(function(){  
+        $('.picture-caption').slick({
+         infinite: true,
+         slidesToShow: 1,
+         slidesToScroll: 3        
+});     
 });>
 </script>
 
