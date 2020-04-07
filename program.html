@@ -10,7 +10,7 @@
         <meta charset="utf-8" />
 
         <link rel="stylesheet" href="css/styles.css?v=1.0" />
-        <link rel="stylesheet" href="css/about.css?v=1.0">
+  
         
        <!--Slick Slider CSS -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"/>
@@ -37,19 +37,22 @@
             <a href="https://bokcenter.harvard.edu/contact-us" target="_blank">Derek Bok Center for Teaching and Learning</a>
         </footer>
         
-        
-  <!--Jquery CDN Link -->
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
   <!--Slick Slider JS -->
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
-        
+
 
    <script type ="text/javascript">
-         $(document).ready(function(){  
-        $('.picture-caption').slick();     
+   $(document).ready(function(){
+   $('.picture-caption').slick({
+     dots: false,
+     arrows: false,
+     autoplay: true,
+     autoplaySpeed: 3000,
+     infinite: true,
 });
-</script>
+   });</script>
 
     </body>
 </html>
