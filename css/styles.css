@@ -34,6 +34,7 @@ nav a {
     font-size: 1.7em;
     text-transform: uppercase;
     display: inline-block;
+    padding: 10px 15px;
     width: 19.4%;
     line-height: 50px;
     color: black;
