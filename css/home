@@ -1,0 +1,19 @@
+section#home img {
+  float: left;
+  vertical-align: middle;
+  padding-top: 100px;
+  width: 800px;
+}
+
+
+section#home p {
+  display: table-cell;
+  text-align: justify;
+  float: right;
+  hyphens: auto;
+  width: 500px;
+  padding: 10px;
+  margin: 0;
+  height: 100%;
+
+}
