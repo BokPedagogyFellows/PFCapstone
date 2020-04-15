@@ -39,11 +39,11 @@ body{
 } 
 
 .nav-link-wrapper:hover {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid#008080;
 }
 
 .nav-link-wrapper a:hover {
-    color: black;
+    color:#008080;
 }
 
 .active-nav-link {
