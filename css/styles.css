@@ -1,8 +1,4 @@
-@import "https://fonts.googleapis.com/css?family=Lato";
 
-* {
-    font-family: "Lato", sans-serif;
-}
 
 html,
 body {
@@ -16,46 +12,16 @@ body {
     min-height: 600px;
 }
 
-nav,
-section {
-    box-sizing: border-box;
-}
-
-nav {
-    display: block;
-    clear: both;
-    text-align: center;
-    width: 100%;
-    margin: 0;
-    height: 50px;
-}
-
-nav a {
-    font-size: 1.7em;
-    text-transform: uppercase;
-    display: inline-block;
-    padding: 10px 15px;
-    width: 19.4%;
-    line-height: 50px;
-    color: black;
-    text-decoration: none;
-    margin: 0;
-}
-
-nav a.active {
-    font-weight: bold;
-    color: #008080;
-}
 
 section {
     position: relative;
-    font-size: 1.5em;
+    font-size: 1.3em;
     width: 100%;
     margin: 0;
-    height: calc(100% - 100px);
     min-height: 500px;
     overflow: auto;
 }
+
 
 page-container {
   position: relative;
@@ -89,13 +55,6 @@ footer a:hover {
     font-weight: bold;
 }
 
-p.contact {
-    margin: 0;
-    position: absolute;
-    bottom: 0%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
 
 p.writing {
     margin: 20;
@@ -124,5 +83,3 @@ p.writing a:hover {
     color: rgb(223, 177, 57);
     text-decoration: none;
 }
-
-
