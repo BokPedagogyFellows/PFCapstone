@@ -1,80 +1,106 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8" />
-        <title> Page Title</title>
-        <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="styles2.css">
-    </head>
-    <body>
-        <div class="container">
-            <div class="nav-wrapper">
-                <div class="left-side">
-                    <div class="nav-link-wrapper active-nav-link">
-                    <a href="index.html">Home</a>
-                    </div>
+/*Master styles */
+body{
+    font-family: "Lato", sans-serif;
+    margin: 0px;
+}
 
-                    <div class="nav-link-wrapper">
-                    <a href="departments.html">Pedagogy Fellows</a>
-                    </div>
-                </div>
-            
-         </div>
-        </div>
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+}
 
-<div class="content-wrapper">
-    <div class="portfolio-items-wrapper">
+/*Nav styles */
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+}
 
-        <div class="portfolio-item-wrapper">
-            <div class="portfolio-img-background" style="background-image:url(pf_photos/pf1.jpg)"></div>
-        </div>
+.left-side {
+    display: flex;
+}
 
-        <div class="portfolio-item-wrapper">
-            <div class="portfolio-img-background" style="background-image:url(pf_photos/pf2.jpg)"></div>
-       </div>
-     
-       <div class="portfolio-item-wrapper">
-        <div class="portfolio-img-background" style="background-image:url(pf_photos/pf3.jpg)"></div>
-   </div>
+.nav-wrapper > .left-side > div {
+    margin-right: 20px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
 
-   <div class="portfolio-item-wrapper">
-    <div class="portfolio-img-background" style="background-image:url(pf_photos/pf4.jpg)"></div>
-</div>
+.nav-link-wrapper {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
 
-<div class="portfolio-item-wrapper">
-    <div class="portfolio-img-background" style="background-image:url(pf_photos/pf5.jpg)"></div>
-</div>
+.nav-link-wrapper a {
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+} 
 
-<div class="portfolio-item-wrapper">
-    <div class="portfolio-img-background" style="background-image:url(pf_photos/pf6.jpg)"></div>
-</div>
+.nav-link-wrapper:hover {
+    border-bottom: 1px solid black;
+}
 
-<div class="portfolio-item-wrapper">
-    <div class="portfolio-img-background" style="background-image:url(pf_photos/pf7.jpg)"></div>
-</div>
+.nav-link-wrapper a:hover {
+    color: black;
+}
 
-<div class="portfolio-item-wrapper">
-    <div class="portfolio-img-background" style="background-image:url(pf_photos/pf8.jpg)"></div>
-</div>
+.active-nav-link {
+    border-bottom: 1px solid black;
+}
 
-<div class="portfolio-item-wrapper">
-    <div class="portfolio-img-background" style="background-image:url(pf_photos/pf9.jpg)"></div>
-</div>
+.active-nav-link a {
+    color: black !important;
+}
 
-<div class="portfolio-item-wrapper">
-    <div class="portfolio-img-background" style="background-image:url(pf_photos/pf10.jpg)"></div>
-</div>
+/*Portfolio styles*/
 
-<div class="portfolio-item-wrapper">
-    <div class="portfolio-img-background" style="background-image:url(pf_photos/pf11.jpg)"></div>
-</div>
+.portfolio-items-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
 
-<div class="portfolio-item-wrapper">
-    <div class="portfolio-img-background" style="background-image:url(pf_photos/pf12.jpg)"></div>
-</div>
+.portfolio-item-wrapper {
+    position: relative;
+}
 
-    </div>
-</div>
-      </div>
-    </body>
-</html>
+.portfolio-img-background {
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img-text-wrapper {
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+
+/* About page */
+.two-column-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.profile-image-wrapper img {
+    width: 100%;
+}
+
+.profile-content-wrapper {
+    padding: 30px
+}
+
+.profile-content-wrapper h1 {
+    color: #008080
+}
