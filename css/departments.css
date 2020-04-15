@@ -34,37 +34,6 @@ section {
   padding: inherit;
 }
 
-page-container {
-  position: relative;
-  min-height: 100vh;
-}
-
-
-content-wrap {
-  padding-bottom: 2.5rem;    /* Footer height */
-}
-
-footer {
-    display: block;
-    height: 50px;
-    position: relative;
-    box-sizing: border-box;
-    letter-spacing: 2px;
-}
-
-footer a {
-    position: absolute;
-    color: #008080;
-    left: calc(65% + 0.5em);
-    text-decoration: none;
-    text-transform: uppercase;
-    bottom: 15px;
-    color: #008080;
-}
-
-footer a:hover {
-    color: black;
-}
 
 p.contact {
     margin: 0;
