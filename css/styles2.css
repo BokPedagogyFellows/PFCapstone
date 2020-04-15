@@ -86,3 +86,26 @@ body{
     padding-right: 100px;
 
 }
+
+footer {
+    display: block;
+    height: 50px;
+    position: relative;
+    box-sizing: border-box;
+    letter-spacing: 2px;
+}
+
+footer a {
+    position: absolute;
+    color: #008080;
+    left: calc(65% + 0.5em);
+    text-decoration: none;
+    text-transform: uppercase;
+    bottom: 15px;
+    color: #008080;
+}
+
+footer a:hover {
+    color: black;
+    font-weight: bold;
+}
