@@ -13,7 +13,7 @@ body{
 .nav-wrapper {
     display: flex;
     justify-content: space-between;
-    padding: 38px;
+    padding: 35px;
 }
 
 .left-side {
@@ -22,7 +22,7 @@ body{
 
 .nav-wrapper > .left-side > div {
     margin-right: 20px;
-    font-size: 0.9em;
+    font-size: 1.1em;
     text-transform: uppercase;
 }
 
@@ -36,7 +36,7 @@ body{
     color: #8a8a8a;
     text-decoration: none;
     transition: color 0.5s;
-} 
+}
 
 .nav-link-wrapper:hover {
     border-bottom: 1px solid#008080;
@@ -85,37 +85,4 @@ body{
     padding-left: 100px;
     padding-right: 100px;
 
-}
-
-page-container {
-  position: relative;
-  min-height: 100vh;
-}
-
-
-content-wrap {
-  padding-bottom: 2.5rem;    /* Footer height */
-}
-
-footer {
-    display: block;
-    height: 50px;
-    position: relative;
-    box-sizing: border-box;
-    letter-spacing: 2px;
-}
-
-footer a {
-    position: absolute;
-    color: #008080;
-    left: calc(65% + 0.5em);
-    text-decoration: none;
-    text-transform: uppercase;
-    bottom: 15px;
-    color: #008080;
-}
-
-footer a:hover {
-    color: black;
-    font-weight: bold;
 }
