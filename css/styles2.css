@@ -54,6 +54,19 @@ body{
     color: black !important;
 }
 
+.right-side > .brand {
+    font-size: 0.9em;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #008080;
+}
+
+.right-side > .brand:hover {
+        font-weight: bold;
+        border-bottom: 1px solid #008080;
+}
+
 /*Portfolio styles*/
 
 .portfolio-items-wrapper {
