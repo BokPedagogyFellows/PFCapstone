@@ -20,6 +20,10 @@ body{
     display: flex;
 }
 
+.right-side {
+    display: flex;
+}
+
 .brand {
     color: #008080;
 }
