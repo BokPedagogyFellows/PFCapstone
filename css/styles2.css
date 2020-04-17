@@ -54,6 +54,25 @@ body{
     color: black !important;
 }
 
+.brand a:link {
+    letter-spacing: 1px;
+    color: #008080;
+    font-size: 0.9em;
+    left: calc(65% + 0.5em);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.brand a:visited {
+    color: #008080;
+}
+
+.brand a:hover {
+    color: #008080;
+    border-bottom: 1px solid #008080;
+    font-weight: bold;
+}
+
 /*Portfolio styles*/
 
 .portfolio-items-wrapper {
