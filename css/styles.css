@@ -32,6 +32,30 @@ content-wrap {
   padding-bottom: 2.5rem;    /* Footer height */
 }
 
+brand {
+    display: block;
+    height: 50px;
+    position: relative;
+    box-sizing: border-box;
+    letter-spacing: 2px;
+}
+
+brand a {
+    position: absolute;
+    color: #008080;
+    left: calc(65% + 0.5em);
+    text-decoration: none;
+    text-transform: uppercase;
+    bottom: 15px;
+    color: #008080;
+}
+
+brand a:hover {
+    color: black;
+    font-weight: bold;
+}
+
+
 p.writing {
     margin: 20;
     position: inherit;
