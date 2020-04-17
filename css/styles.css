@@ -32,32 +32,6 @@ content-wrap {
   padding-bottom: 2.5rem;    /* Footer height */
 }
 
-footer {
-    display: block;
-    height: 50px;
-    position: relative;
-    box-sizing: border-box;
-    letter-spacing: 1px;
-}
-
-footer a {
-    position: absolute;
-    color: #008080;
-    left: calc(65% + 0.5em);
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 0.9em;
-    bottom: 15px;
-    color: #008080;
-}
-
-footer a:hover {
-    color: #008080;
-    border-bottom: 1px solid #008080;
-    font-weight: bold;
-}
-
-
 p.writing {
     margin: 20;
     position: inherit;
