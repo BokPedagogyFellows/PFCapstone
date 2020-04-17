@@ -54,7 +54,16 @@ body{
     color: black !important;
 }
 
-.brand a:link {
+.nav-wrapper > .right-side > .brand a:link {
+    letter-spacing: px;
+    color: #008080;
+    font-size: 0.9em;
+    left: calc(65% + 0.5em);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.nav-wrapper > .right-side > .brand a:visited {
     letter-spacing: 1.5px;
     color: #008080;
     font-size: 0.9em;
@@ -63,16 +72,7 @@ body{
     text-transform: uppercase;
 }
 
-.brand a:visited {
-    letter-spacing: 1.5px;
-    color: #008080;
-    font-size: 0.9em;
-    left: calc(65% + 0.5em);
-    text-decoration: none;
-    text-transform: uppercase;
-}
-
-.brand a:hover {
+.nav-wrapper > .right-side > .brand a:hover {
     color: #008080;
     border-bottom: 1px solid #008080;
     font-weight: bold;
