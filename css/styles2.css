@@ -64,7 +64,12 @@ body{
 }
 
 .brand a:visited {
+    letter-spacing: 1px;
     color: #008080;
+    font-size: 0.9em;
+    left: calc(65% + 0.5em);
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
 .brand a:hover {
