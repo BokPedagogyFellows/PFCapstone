@@ -32,7 +32,7 @@ content-wrap {
   padding-bottom: 2.5rem;    /* Footer height */
 }
 
-brand {
+footer {
     display: block;
     height: 50px;
     position: relative;
@@ -40,7 +40,7 @@ brand {
     letter-spacing: 1px;
 }
 
-brand a {
+footer a {
     position: absolute;
     color: #008080;
     left: calc(65% + 0.5em);
@@ -51,7 +51,7 @@ brand a {
     color: #008080;
 }
 
-brand a:hover {
+footer a:hover {
     color: #008080;
     border-bottom: 1px solid #008080;
     font-weight: bold;
