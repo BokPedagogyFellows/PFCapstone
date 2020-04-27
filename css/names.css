@@ -13,6 +13,7 @@
   justify-content: space-between;
   margin-left: 38px;
   padding-right: 10%;
+  margin-bottom: 15px;
 }
 
 .names-grid-mentors {
@@ -26,15 +27,15 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  max-width: 450px;
-  padding-right: 75px;
+  max-width: 30vw;
+  padding-right: 4vw;
 }
 
 .names-grid-empty-column {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  width: 450px;
+  width: 30vw;
 }
 
 .names-grid-column h4 {
