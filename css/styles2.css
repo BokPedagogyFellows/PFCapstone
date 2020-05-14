@@ -54,7 +54,7 @@ body{
     color: black !important;
 }
 
-.brand a:link {
+.bok a:link {
     letter-spacing: 1px;
     color: #008080;
     font-size: 0.9em;
@@ -63,7 +63,7 @@ body{
     text-transform: uppercase;
 }
 
-.brand a:visited {
+.bok a:visited {
     letter-spacing: 1px;
     color: #008080;
     font-size: 0.9em;
@@ -72,42 +72,29 @@ body{
     text-transform: uppercase;
 }
 
-.brand a:hover {
+.bok a:hover {
     color: #008080;
     border-bottom: 1px solid #008080;
     font-weight: bold;
 }
 
-/*Portfolio styles*/
+/*Home styles*/
 
-.portfolio-items-wrapper {
+.home-items-wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-.portfolio-item-wrapper {
+.home-item-wrapper {
     position: relative;
 }
 
-.portfolio-img-background {
+.home-img {
     height: 300px;
     width: 100%;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-}
-
-.img-text-wrapper {
-    position: absolute;
-    top: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    text-align: center;
-    padding-left: 100px;
-    padding-right: 100px;
 }
 
 /* About page */
@@ -116,14 +103,20 @@ body{
     grid-template-columns: 1fr 1fr;
 }
 
-.profile-video-wrapper iframe {
+.content-wrapper {
+    margin-top: 30px;
+    margin-left: 5px;
+    padding-right: 8%;
+}
+
+.about-video-wrapper iframe {
     width: 100%;
 }
 
-.profile-content-wrapper {
-    padding: 30px
+.about-content-wrapper {
+    padding: 1px
 }
 
-.profile-content-wrapper h1 {
+.about-content-wrapper h1 {
     color: #008080
 }
