@@ -54,28 +54,13 @@ body{
     color: black !important;
 }
 
-.bok a:link {
+.site {
     letter-spacing: 1px;
     color: #008080;
     font-size: 0.9em;
     left: calc(65% + 0.5em);
     text-decoration: none;
     text-transform: uppercase;
-}
-
-.bok a:visited {
-    letter-spacing: 1px;
-    color: #008080;
-    font-size: 0.9em;
-    left: calc(65% + 0.5em);
-    text-decoration: none;
-    text-transform: uppercase;
-}
-
-.bok a:hover {
-    color: #008080;
-    border-bottom: 1px solid #008080;
-    font-weight: bold;
 }
 
 /*Home styles*/
@@ -105,8 +90,8 @@ body{
 
 .content-wrapper {
     margin-top: 30px;
-    margin-left: 5px;
-    padding-right: 8%;
+    margin-left: 38px;
+    margin-right: 38px;
 }
 
 .about-video-wrapper iframe {
