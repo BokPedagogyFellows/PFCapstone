@@ -96,6 +96,8 @@ body{
 
 .about-video-wrapper iframe {
     width: 100%;
+    padding-left: 20px;
+    padding-top: 25px;
 }
 
 .about-content-wrapper {
