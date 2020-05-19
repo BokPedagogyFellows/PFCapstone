@@ -8,12 +8,14 @@
   }
 
 .capstone-container {
-    width: auto;
+    max-width: 100%;
     min-height: 500px;
     margin-left: 38px;
+    margin-right: 38px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .capstone-card {
@@ -103,24 +105,25 @@
 
 .intro-wrapper {
   margin-top: 10px;
-  margin-left: 5px;
-  padding-right: 12%;
+  margin-left: 38px;
+  max-width: 100vw;
+  margin-right: 38px;
 }
 
 .intro {
   color: black;
-  font-size: 15px;
+  font-size: 1.1em;
   text-align: justify;
-  margin-left: 38px;
+  margin-right: 10px;
   padding-bottom: 25px;
-  padding-right: 85px;
   display: flex;
   justify-content: left;
+  line-height: 1.25em;
 }
 
 p {
     color: black;
-    font-size: 13px;
+    font-size: 1.02em;
     word-break: normal;
     padding-bottom: 5px;
     padding-top: 3px;

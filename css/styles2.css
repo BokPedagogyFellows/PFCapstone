@@ -131,20 +131,16 @@ body{
 .about-video-wrapper iframe {
     width: 100%;
     padding-left: 10%;
-    padding-top: 30px;
-}
-
-.about-content-wrapper {
-    padding: 1px;
+    padding-top: 10px;
 }
 
 .about-content-wrapper p {
-  font-size: 14px;
+  font-size: 1.1em;
   text-align: justify;
-  padding-top: 20px;
+  line-height: 1.25em;
+  padding-top: 10px;
 }
 
 .about-content-wrapper h1 {
     color: #008080;
-    padding-top: 10px;
 }
