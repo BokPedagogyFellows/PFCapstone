@@ -96,6 +96,11 @@ body{
 }
 
 /*Home styles*/
+.home-content-wrapper {
+    margin-top: 30px;
+    margin-left: 38px;
+    margin-right: 38px;
+}
 
 .home-items-wrapper {
     display: grid;
