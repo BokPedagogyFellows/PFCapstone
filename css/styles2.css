@@ -9,6 +9,10 @@ body{
     grid-template-columns: 1fr;
 }
 
+h1{
+    font-weight: 500;
+}
+
 /*Nav styles */
 .nav-wrapper {
     display: flex;
@@ -61,7 +65,7 @@ body{
     left: calc(65% + 0.5em);
     text-decoration: none;
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: 500;
 }
 
 .right-side {
